@@ -7,6 +7,8 @@
 2. heroku
 3. vs code IDE
 4. git bash
+5.[Git Documentation](https://git-scm.com/docs/gittutorial)
+
 
 
 creating conda environment 
@@ -58,6 +60,14 @@ To check remote URL
 ```
 git remote -v
 ```
+
+To setup CI/CD pipeline in Heroku we need 3 Information:
+
+1.HEROKU_EMAIL : jeevitha.nbhadra@gmail.com
+2.HEROKU_API_KEY : 562d287d-5cc5-4b8e-ae75-87f9f8a9d7e7
+                  [Go to Account settings on your right handside,scroll dwn and click on reveal,API key is seen. ]
+3.HEROKU_APP_NAME :app-ml-regression
+                  [Click on Heroku on left handside,create new app ,create app]
 
 
 
