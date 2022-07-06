@@ -31,5 +31,33 @@ conda activate venv/
 
 ```
 pip install -r requirements.txt
+
 ```
+
+To add a file to git 
+```
+git add . or git add <filename>
+```
+To check the status of files and folders
+
+```
+git status
+```
+To commit changes to GIT
+
+```
+git commit -m "commit changes"
+```
+
+To push the changes
+```
+git push origin main
+```
+
+To check remote URL
+```
+git remote -v
+```
+
+
 
