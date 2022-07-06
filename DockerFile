@@ -1,0 +1,18 @@
+FROM python:3.7
+  
+ # copies all the files and folders into Docker
+
+ COPY . /app
+
+ # My work directory is app
+ WORKDIR /app
+
+ # install requirements.txt
+
+ RUN pip install -r requirements.txt
+
+ #whenever i will run the code,it will run on this port mentioned which is sent from env variable
+
+ EXPOSE $PORT
+
+ CMD gunicorn --workers=4 - -bind 0.0.0.0:$PORT app :app
